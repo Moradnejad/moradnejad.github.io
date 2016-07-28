@@ -1140,7 +1140,7 @@
 	}
 
 	h2, h3, h4, h5, h6 {
-		font-weight: 700;
+		font-weight: 300;
 	}
 
 	h1 {
@@ -1148,7 +1148,7 @@
 	}
 
 		h1 strong {
-			font-weight: 700;
+			font-weight: 600;
 		}
 
 	em, i {
@@ -1445,7 +1445,7 @@
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: transparent;   
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
@@ -1461,27 +1461,27 @@
 				}
 
 				ul.social li a.fa-twitter {
-					background-color: #2DAAE4;
+					background-color: transparent;
 				}
 
 				ul.social li a.fa-facebook {
-					background-color: #3C5A98;
+					background-color: transparent;
 				}
 
 				ul.social li a.fa-dribbble {
-					background-color: #C4376B;
+					background-color: transparent;
 				}
 
 				ul.social li a.fa-linkedin {
-					background-color: #006599;
+					background-color: transparent;
 				}
 
 				ul.social li a.fa-tumblr {
-					background-color: #51718A;
+					background-color: transparent;
 				}
 
 				ul.social li a.fa-google-plus {
-					background-color: #DA2713;
+					background-color: transparent;
 				}
 
 				ul.social li a.fa-github {
@@ -1493,7 +1493,7 @@
 				}
 
 				ul.social li a.fa-instagram {
-					background-color: #E0D7C8;
+					background-color: transparent;
 				}
 
 				ul.social li a.fa-foursquare {
@@ -1605,6 +1605,7 @@
 		.wrapper.style1 {
 			background-image: none;
 			background-color: #fff;
+			color: black
 		}
 
 		.wrapper.style2 {
@@ -1726,7 +1727,7 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 15pt;
 			}
 
 			h1 {
@@ -1735,7 +1736,7 @@
 			}
 
 			h2 {
-				font-size: 2em;
+				font-size: 2.5em;
 				letter-spacing: -0.015em;
 			}
 
@@ -1824,12 +1825,12 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 8em 0 8em 0;
-				text-align: center;
+				padding: 3em 3em 3em 5em;
+				text-align: left;
 			}
 
 				.wrapper.first {
-					padding-top: 12em;
+					padding-top: 10em;
 				}
 
 		/* Nav */
@@ -1871,8 +1872,8 @@
 				}
 
 				#top p {
-					font-size: 1.5em;
-					line-height: 1.75em;
+					font-size: 1.2em;
+					line-height: 1.5em;
 				}
 
 			#contact footer {
@@ -1925,8 +1926,8 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 5em 0 5em 0;
-				text-align: center;
+				padding: 5em 3em 5em 3em;
+				text-align: left;
 			}
 
 				.wrapper.first {
