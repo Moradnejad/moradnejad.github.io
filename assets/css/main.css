@@ -1455,8 +1455,8 @@
 					transition: background-color .2s ease-in-out;
 					background-color: transparent;   
 					border-radius: 6px;
-					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					box-shadow: inset 0px 0px 0px 1px #696969, inset 0px 2px 1px 0px #696969;
+					color: #696969 !important;
 					display: block;
 					font-size: 26px;
 					height: 48px;
@@ -1613,7 +1613,7 @@
 		.wrapper.style1 {
 			background-image: none;
 			background-color: #fff;
-			color: black
+			color: #696969
 		}
 
 		.wrapper.style2 {
@@ -1735,7 +1735,7 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 15pt;
+				font-size: 14pt;
 			}
 
 			h1 {
