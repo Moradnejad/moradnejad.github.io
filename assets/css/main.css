@@ -1416,7 +1416,7 @@
 			padding-left: 0.5em;
 		}
 	ul.simple {
-		list-style: disc outside url("sqpurple.gif");
+		list-style: circle outside url("sqpurple.gif");
 		padding-left: 2em
 	}
 	ul.social {
