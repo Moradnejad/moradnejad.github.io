@@ -22,7 +22,13 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
-
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+	.right-padded-body {
+		padding-right: 30px !important;
+	}
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
